@@ -1,0 +1,48 @@
+{
+  "name": "vanquybn/yii2-tinymce",
+  "description": "Yii2 extension to use TinyMce with Compressor and FileManager",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "tinymce",
+    "wysiwyg"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Quinn Nguyen",
+      "email": "quydhnni@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "suggest": {
+    "vanquybn/yii2-elfinder": "To add elFinder file manager"
+  },
+  "autoload": {
+    "psr-4": {
+      "vanquybn\\yii2\\tinymce\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "vanquybn/yii2-tinymce",
+        "version": "dev-master",
+        "source": {
+          "url": "git://github.com/vanquybn/yii2-tinymce.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "autoload": {
+          "psr-0" : {
+            "vanquybn\\yii2-tinymce" : ""
+          }
+        }
+      }
+    }
+  ]
+}

@@ -142,6 +142,7 @@ class TinyMce extends InputWidget
         'image_advtab' => true,
         'relative_urls' => false,
         'spellchecker_languages' => "+Русский=ru",
+        'height' => 480
     );
     /** @var array Widget settings will override defaultSettings */
     public $settings = array();
